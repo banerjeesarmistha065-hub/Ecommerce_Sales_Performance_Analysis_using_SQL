@@ -6,7 +6,7 @@ The objective of this project is to analyze ecommerce sales data using SQL to id
 ---
 
 ## 📂 Dataset
-- Source: Ecommerce sales dataset (simulated/realistic business data)
+- Source: Simulated ecommerce dataset designed to reflect real-world business scenarios.
 - Contains information on:
   - Orders
   - Customers
