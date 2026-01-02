@@ -1,4 +1,4 @@
-# SQL E-Commerce Sales Insights
+# Ecommerce Sales Performance Analysis using SQL
 This project explores and analyzes e-commerce sales data using advanced SQL techniques such as **CASE statements**, **Common Table Expressions (CTEs)**, and **Window Functions**.
 
 ---
