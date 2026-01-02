@@ -1,49 +1,71 @@
-# Ecommerce Sales Performance Analysis using SQL
-This project explores and analyzes e-commerce sales data using advanced SQL techniques such as **CASE statements**, **Common Table Expressions (CTEs)**, and **Window Functions**.
+# Ecommerce Sales Analysis using SQL
+
+## 📌 Problem Statement
+The objective of this project is to analyze ecommerce sales data using SQL to identify revenue trends, top-performing products, customer behavior, and regional performance. This analysis helps businesses make data-driven decisions to improve sales and customer retention.
 
 ---
 
-## 🗂️ Dataset Overview
-The dataset includes:
-- Customers: Customer demographics and details  
-- Orders: Sales transactions including quantity, amount, and date  
-- Products: Product categories and prices  
+## 📂 Dataset
+- Source: Ecommerce sales dataset (simulated/realistic business data)
+- Contains information on:
+  - Orders
+  - Customers
+  - Products
+  - Revenue
+  - Order dates and regions
 
 ---
 
-## 🎯 Objectives
-- Identify top-performing product categories  
-- Analyze revenue trends using `CASE` and `CTE`  
-- Compare average sales using `WINDOW FUNCTIONS`
+## 🛠 Tools & Skills Used
+- SQL
+  - SELECT, WHERE
+  - JOINs
+  - GROUP BY, HAVING
+  - Subqueries
+  - CTEs
+  - Aggregations
+- Business Analysis
+- Data Interpretation
 
 ---
 
-## 🧠 SQL Concepts Used
-- CASE WHEN (customer classification)
-- Window Functions (RANK, ROW_NUMBER, etc.)
-- Date Functions (Monthly trend)
-- Common Table Expressions (CTE) - (Regional comparison)
-- Aggregate functions (SUM, AVG, COUNT, HAVING)
-- Joins and Subqueries (Above-average customers)
+## ❓ Business Questions Answered
+- Which product categories generate the highest revenue?
+- Which regions contribute most to total sales?
+- Who are the top customers by total purchase value?
+- What are the monthly sales trends?
+- Which products have low performance?
 
 ---
 
-## 📈 Key Insights
-- Found high-value customers
-- Identified top products by category
-- Visualized monthly sales trends
-- Compared regional revenue vs global average
-- Detected repeat buyers
+## 📊 Key Analysis Performed
+- Revenue analysis by category and region
+- Customer-level sales aggregation
+- Monthly and yearly sales trend analysis
+- Identification of top and bottom-performing products
 
 ---
 
-## 🧾 File Details
-- `sql_ecommerce_project.sql`: Contains all SQL queries
-- `README.md`: Project documentation
+## 🔍 Key Insights
+- A small group of customers contributes a large portion of total revenue.
+- Certain regions consistently outperform others in sales.
+- Sales show seasonal patterns across months.
+- Some products have low sales and may need promotion or removal.
 
 ---
 
-## 🧍 Author
-**Sarmistha Banerjee**  
-📧 banerjeesarmistha065@gmail.com
-💼www.linkedin.com/in/sarmistha-banerjee-787752271
+## 💡 Business Recommendations
+- Focus marketing efforts on high-value customers.
+- Improve supply chain and promotions in underperforming regions.
+- Run targeted campaigns during low-sales months.
+- Optimize product portfolio by focusing on high-performing items.
+
+---
+
+## 📁 Project Structure
+- `ecommerce_insights.sql` → SQL queries used for analysis
+- `README.md` → Project documentation
+
+
+## ✅ Conclusion
+This project demonstrates the practical use of SQL to analyze business data and extract actionable insights that support strategic decision-making.
